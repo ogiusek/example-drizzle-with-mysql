@@ -6,7 +6,7 @@
   "scripts": {
     "start": "tsc && node dist/index.js",
     "dev": "tsc --watch & nodemon --inspect dist/index.js",
-    "migrate": "drizzle-kit generate:mysql --schema=./src/schema.ts"
+    "migrate": "drizzle-kit generate:mysql --schema=./src/db/schema.ts"
   },
   "author": "",
   "license": "ISC",
